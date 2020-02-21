@@ -1,0 +1,26 @@
+.costam-body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f6f6f6;
+}
+
+.costam-log {
+    width: 100vw;
+    height: 100vh;
+}
+
+.costam-bg {
+    background-image: url(../assets/bg2.jpg);
+    background-repeat: no-repeat;
+    border-radius: 2% 0 0 2%;
+}
+
+.costam-log-side {
+    border: 1px solid;
+    width: 50vw;
+    height: 50vh;
+}
+
+.costam-input {
+    width: 25vw;
+}

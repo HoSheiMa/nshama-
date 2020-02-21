@@ -1,0 +1,252 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+.page1 {
+
+    min-height: 100vh;
+
+
+}
+
+.costam-bg {
+    background-image: url('../assets/bg-control.svg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.b-card {
+    position: relative;
+    display: inline-block;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    margin: 5px;
+    background-color: #fff;
+    transition: .1s;
+    background-clip: border-box;
+    /* border: 1px solid rgba(0, 0, 0, .125); */
+    border-radius: .25rem;
+}
+
+.costam-view {
+    position: absolute;
+    left: 25vw;
+    overflow-y: scroll;
+    top: 5vh;
+    width: 50vw;
+    box-shadow: 0 0 10px #dc3545;
+    border-radius: 5px;
+    height: 90vh;
+    background: #fff;
+
+}
+
+.view2 {
+    position: fixed;
+    width: 60vw;
+    z-index: 99999;
+    overflow: scroll;
+    height: 60vh;
+    border-radius: 0.25rem;
+    background: #fff;
+    left: calc(50vw - 30vw);
+    top: calc(50vh - 30vh);
+}
+
+.placeholder {
+    text-align: right;
+}
+
+.placeholder::placeholder {
+    text-align: right;
+
+
+}
+
+#contant div div div ul li {
+    transition: 2s;
+}
+
+.costam-size {
+    padding: 30px;
+    text-align: center;
+}
+
+#form_11 {
+    width: 50%
+}
+
+@media (max-width : 576px) {
+    .dropShow { 
+        left: 40px !important;
+    }
+    .costam-size {
+        padding: 0%;
+    }
+
+    #form_11 {
+        width: 100%;
+    }
+
+    .costam-view {
+        left: 5vw;
+        overflow-y: scroll;
+        top: 5vh;
+        width: 90vw;
+    }
+
+    .view2 {
+        position: fixed;
+        width: 100vw;
+        z-index: 99999;
+        height: 100vh;
+        background: #fff;
+        left: 6px;
+        top: 20px;
+    }
+}
+
+.over_flow_scroll {
+    overflow: scroll !important;
+}
+
+.print__ {}
+
+.more_info_geter_page {}
+
+@media print {
+    body {
+        overflow: hidden;
+    }
+
+    .more_info_geter_page {
+        overflow: hidden;
+    }
+
+    .print__ {
+        display: none;
+    }
+}
+
+.admincp-bg {
+    background-image: url('../assets/admincp.svg');
+    height: 100vh;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+/* to hide the checkbox itself */
+input[type=checkbox]+label:before {
+    font-family: FontAwesome;
+    display: inline-block;
+}
+
+input[type=checkbox]+label:before {
+    content: "\f096";
+}
+
+/* unchecked icon */
+input[type=checkbox]+label:before {
+    letter-spacing: 10px;
+}
+
+/* space between checkbox and label */
+
+input[type=checkbox]:checked+label:before {
+    content: "\f046";
+}
+
+/* checked icon */
+input[type=checkbox]:checked+label:before {
+    letter-spacing: 5px;
+}
+
+/* allow space for check mark */
+
+
+input::placeholder {
+    text-align: right;
+}
+
+.bluecover {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    background: #e5eff1;
+    text-align: center;
+}
+
+.w-sm-100 {}
+
+.no-padding {}
+
+@media (max-width: 576px) {
+
+
+    .no-padding {
+        padding: 0% !important;
+    }
+
+    .w-sm-100 {
+        width: 100% !important;
+    }
+}
+
+.box-hover {}
+
+.box-hover:hover {
+    box-shadow: 0 0 6px 0px #20c997;
+}
+
+
+.box-hover1 {}
+
+.box-hover1:hover {
+    box-shadow: 0 0 6px 0px #17a2b8
+}
+
+.box-hover2 {}
+
+.box-hover2:hover {
+    box-shadow: 0 0 6px 0px #17a2b8
+}
+
+
+.box-hover3 {}
+
+.box-hover3:hover {
+
+    box-shadow: 0 0 6px 0px #dc3545
+}
+
+.list-group-item:hover .dropShow{
+    display: block;
+
+}
+
+.dropShow {
+    position: absolute;
+    z-index: 999;
+    background-color: #212529;
+    border-radius: 6px;
+    display: none;
+    left: -100px;
+    top: 10px;
+    padding: 5px;
+}
+.dropShow .dropShowiItem span {
+    color: #fff;
+}
+
+.dropShow .dropShowiItem  {
+    padding: 12px;
+    margin-bottom: 15px;
+}
+.dropShow .dropShowiItem:hover{
+    background-color: #007bff;
+}
