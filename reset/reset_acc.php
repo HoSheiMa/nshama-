@@ -66,8 +66,8 @@ if ($r->num_rows != 0) {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Port = 587;                                    // TCP port to connect to
-        $mail->Username = 'qandilafa@gmail.com';
-        $mail->Password = 'wadielnatrontv0181510877';                       // SMTP password
+        $mail->Username = '';
+        $mail->Password = '';                       // SMTP password
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 
         //Recipients
